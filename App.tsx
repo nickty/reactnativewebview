@@ -9,7 +9,8 @@ const App = () => {
         <Text style={styles.headerText}>Facebook WebView</Text>
       </View> */}
       <WebView
-        source={{ uri: 'https://arogga.com/' }}
+        source={{html: '<iframe width="100%" height="50%" src="https://arogga.com/" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>'}}
+
         style={styles.webview}
       />
     </SafeAreaView>
