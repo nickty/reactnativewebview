@@ -9,7 +9,7 @@ const App = () => {
         <Text style={styles.headerText}>Facebook WebView</Text>
       </View> */}
       <WebView
-        source={{ uri: 'http://192.168.0.245:3000/' }}
+        source={{ uri: 'https://arogga.com/' }}
         style={styles.webview}
       />
     </SafeAreaView>
